@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    padding: 0;
+    
+    
+}
+
+
+
+
+.colorNav{
+    background-color:rgb(255, 255, 255) ;
+    height: 5em;
+    
+}
+
+.img1{
+    position: absolute;
+    
+    
+    top: 60%;
+    left: 2.7%;
+    text-align: center;
+    background-color: none;
+}
+
+.img2{
+    position: absolute;
+   
+    
+    top: 40%;
+    left: 3%;
+    text-align: center;
+    background-color: none;
+}
+.img3{
+    position: absolute;
+   
+    
+    top: 20%;
+    left: 2%;
+    text-align: center;
+    background-color: none;
+}
+
+.background{
+  
+    background-color: white;
+  
+   
+    
+}
+.responsive-navbar-nav{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+.name{
+    position: absolute;
+    
+    
+    top: 25%;
+    left: 1%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+   
+    letter-spacing: 0.035em;
+    font-size: 150px;
+    
+    /* or 137px */
+    
+    
+    
+    color: #FFFBFB;
+}
+
+.firstButton{
+    position: absolute;
+    top: 53%;
+    left: 22%;
+    
+    background-color: rgb(255,255,255);
+    color: rgb(31, 199, 255);
+    text-align: center;
+    padding: 1%;
+    
+    outline: none;
+    border: 2px solid rgb(31, 199, 255);
+   
+    font-size: 100%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.115em;
+    cursor: pointer;
+    border-radius:  10%;
+    width: 10%;
+    
+}
+
+.id{
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+
+.secondButton{
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    
+    background-color: rgb(255,255,255);
+    color: rgb(31, 199, 255);
+    text-align: center;
+    padding: 1%;
+    
+    outline: none;
+    border: 2px solid rgb(31, 199, 255);
+   
+    font-size: 100%;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.115em;
+    cursor: pointer;
+    border-radius:  10%;
+    width: 10%;
+    
+    
+    
+   
+}
+.firstButton:hover{
+    background-color:rgba(31, 199, 255,0.8);
+    color: white;
+    
+
+}
+.secondButton:hover{
+    background-color:rgba(31, 199, 255,0.8);
+    color: white;
+}
+
+.github{
+
+    
+    border: none;
+    background-color:none ;
+}
+
+.Hi{
+    position: absolute;
+    color: rgb(31, 199, 255);
+    top: 20%;
+    left: 22%;
+    
+    
+    height: 17%;
+    width: 70%;
+    
+    font-size: 400%;
+    font-weight: bold;
+   
+}
+.description{
+    color: rgb((102, 102, 102)8, 88);
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    width: 70%;
+    padding-right: 30%;
+    font-weight: 500;
+    
+
+}
+
+.work{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.description2{
+    color: rgb((102, 102, 102)8, 88);
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    width: 60%;
+    font-weight: 500;
+    
+    
+    height: 12%;
+    
+    
+    display: none;
+    
+
+}
+
+
+
+
+
+@media (max-width: 1639px){
+    .work{
+        left: 50%;
+    }
+
+}
+
+@media (max-width: 1250px){
+    .work{
+        display: none;
+    }
+}
+
+@media (max-width: 1080px){
+    .description{
+        display: none;
+    }
+    .description2{
+        display: inline;
+    }
+}
+
+
+@media (max-width: 624px){
+    .description{
+        width: 100%;
+       
+        font-size: medium;
+        display: none;
+    }
+    .description2{
+        display: inline;
+    }
+
+}
+
+
+@media (max-width: 549px){
+    
+
+    .Hi{
+        font-size: 370%;
+    }
+    .description{
+        font-size: 80%;
+    }
+    .firstButton{
+        font-size: small;
+    }
+    .secondButton{
+        font-size: small;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+
+}
+
+@media(max-width:480px){
+    
+    .description{
+        font-size: 100%;
+        top: 37%;
+        width: 129%;
+        left: 22%;
+        height: 200%;
+    }
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .img3{
+        display: none;
+    }
+}
+
+@media(max-width:412px){
+    
+    .description{
+        font-size: .7rem;
+        top:39%;
+    }
+  
+}
+
+@media(max-width:480px){
+    .Hi{
+        font-size: 265%;
+      
+        left: 15%;
+        text-align: center;
+        width: 70%;
+        
+
+    }
+    .description2{
+        
+        left: 20%;
+        text-align: center;
+        font-size: 100%;
+        
+    }
+
+    .firstButton{
+        top:65%;
+        font-size: 150%;
+        width: 20%;
+        left: 18%;
+        
+        
+    }
+
+    .secondButton{
+        top:65%;
+        font-size: 150%;
+        width: 20%;
+        left: 65%;
+        
+    }
+}

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.Contact{
+    position: absolute;
+    top: 240%;
+    width: 100%;
+    
+}
+
+.contact{
+    position: relative;
+    left: 200%;
+    
+}
+
+.TitleContact{
+    
+    text-align: center;
+    font-size: 4rem;
+    top: 300%;
+    color:  rgb(31, 199, 255,0.8);
+    font-weight: bold;
+
+}
+.Join{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    font-weight: 500;
+    
+
+}
+.Image{
+    position: relative;
+    text-align: center;
+}
+
+@media(max-width: 485px){
+
+.Contact{
+    top: 330%;
+}
+
+
+}
+
+
+

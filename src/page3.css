@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+
+
+.page3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    top: 75%;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    
+    
+  
+}
+.projet1{
+
+   
+    width: 300px;
+    height: 400px;
+    
+    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(71, 71, 71, 0.8);
+    border-top: 3px solid rgb(31, 199, 255);
+    font-style: bold;
+    margin: 20px;
+    
+    
+    
+
+
+
+
+}
+
+
+
+.projet2{
+ 
+    
+    
+    width: 300px;
+    height: 400px;
+    
+    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(71, 71, 71, 0.8);
+    border-top: 3px solid rgb(31, 199, 255);
+    font-style: bold;
+    margin: 20px;
+   
+}
+
+
+.projet3{
+   
+    
+    width: 300px;
+    height: 400px;
+    
+    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(71, 71, 71, 0.8);
+    border-top: 3px solid rgb(31, 199, 255);
+    font-style: bold;
+    margin: 20px;
+}
+
+.titre{
+    
+    
+    
+    
+    left: 0;
+    height: 100px;
+    
+    width: 100%;
+    text-align: center;
+    border-radius: 2px solid black;
+    top: 0em;
+    font-style: bold;
+    
+
+}
+
+.titreText{
+    font-size: 3rem;
+    color: rgb(31, 199, 255);
+    font-style: bold;
+    
+
+  
+}
+
+.page3{
+    font-size: 200px;
+}
+
+.temporaire{
+
+    top: 200%;  
+    position: absolute;
+}
+
+.textProjet2{
+    
+    font-size: large;
+    color: rgb(131, 131, 131);
+    position: relative;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    font-weight: 500;
+    
+}
+
+.titreExplication{
+    position:absolute;
+    font-size: medium;
+    text-align: center;
+    top: 115%;
+    right: 42.5%;
+    color: grey;
+}
+
+.titreProjet{
+    top: 10%;
+    position: relative;
+    right: 0%;
+    font-weight: bold;
+   
+    
+
+}
+
+.projet1:hover{
+    
+    box-shadow: 0px 10px 20px rgba(31, 199, 255,0.8);
+    background-color: rgba(31, 199, 255,0.8);
+}
+
+.projet2:hover{
+    
+    box-shadow: 0px 10px 20px rgba(31, 199, 255,0.8);
+    background-color: rgba(31, 199, 255,0.8);
+}
+.projet3:hover{
+    
+    box-shadow: 0px 10px 20px rgba(31, 199, 255,0.8);
+    background-color: rgba(31, 199, 255,0.8);
+}
+.MyProjects{
+    color: rgba(31, 199, 255);
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+
+.github{
+    position: relative;
+    top: -20%;
+}
+
+.github2{
+    position: relative;
+    top: -13%;
+}
+
+
+
+
+
+
+@media (max-width: 1024px){
+    .titreProjet{
+        font-size: 2.35rem;
+        
+    }
+    .MyProjects{
+        font-size: 30%;
+    }
+   
+    @media (max-width: 485px){
+
+        .page3{
+            top: 100%;
+        }
+
+    }
+
+}

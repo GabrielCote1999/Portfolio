@@ -1,0 +1,110 @@
+
+.bot{
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top:123%;
+    font-family: 'Anton', sans-serif;
+}
+.TitreTroisiemeTitre{
+
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top:173%;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.botText{
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top:135%;
+    width: 40%;
+    color: lightslategray;
+    
+
+}
+.tradingBotText{
+
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top:185%;
+    width: 40%;
+    color: lightslategray;
+
+}
+.titre{
+    font-size:60px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top:107%;
+    font-family: 'Anton', sans-serif;
+}
+
+.TitreSite{
+
+    position: absolute;
+  
+    left: 65%;
+    top:150%;
+    font-family: 'Anton', sans-serif;
+
+}
+
+
+
+
+.twitterBotImage{
+    
+    border-radius:150%;
+    
+}
+
+.SiteWebeImage{
+    
+    border-radius: 80%;
+    
+}
+
+.twitterProjectImage{
+    position: absolute;
+    text-align: left;
+    left: 15%;
+    top:117%;
+  
+}
+
+.SiteWebImage{
+
+    position: absolute;
+    text-align: right;
+    left: 77%;
+    top:145%;
+}
+
+.TroisiemeTitre{
+
+    position: absolute;
+    text-align: left;
+    left: 15%;
+    top:175%;
+
+}
+
+
+.SiteTexte{
+
+    position: absolute;
+    text-align: left;
+    left: 35%;
+    top:160%;
+    width: 40%;
+    color: lightslategray;
+
+ 
+}
+
